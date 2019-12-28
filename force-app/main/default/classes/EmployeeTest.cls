@@ -20,6 +20,7 @@ public with sharing class EmployeeTest {
          Employee emp = new Employee(1001,'Suresh',500000);
          emp.incrementSalary(0.1);
          System.assertEquals(495000, emp.getNetSalary());
+         emp.showDetails();
     }
 
 }
